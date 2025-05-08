@@ -1,0 +1,1 @@
+C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\PassionProjectSport.csproj;x64

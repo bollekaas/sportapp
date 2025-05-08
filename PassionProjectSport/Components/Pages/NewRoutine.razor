@@ -1,0 +1,17 @@
+﻿@page "/NewRoutine"
+@using PassionProjectSport.Classes
+@inject WorkoutState WorkoutState
+@inject NavigationManager NavMenu
+
+<h3>Exercise Page</h3>
+<button @onclick = "CreateExercise">Create Exercise</button>
+<input id = "workoutname" @bind = "routineName" placeholder="Enter routine name here" />
+
+@foreach (var exercise in AllExercises)
+{
+    <div>
+        <input type="checkbox" @bind="exercise.IsSelected" />
+        <label>@exercise.Name</label>
+    </div>
+}
+<button @onclick="CreateRoutine">Create Routine</button>

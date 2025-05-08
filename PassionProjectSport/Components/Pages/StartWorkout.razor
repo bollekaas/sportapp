@@ -1,0 +1,55 @@
+﻿@page "/StartWorkout"
+@using PassionProjectSport.Classes
+@inject WorkoutState workoutstate
+@inject NavigationManager NavMenu
+
+<h3>Workout</h3>    
+<input id = "workoutname" @bind = "workoutname" placeholder="Enter workout name here" />
+@if (WorkoutState.SelectedExercises.Count == 0)
+{
+    <p>Geen oefeningen geselecteerd.</p>
+}
+else
+{
+    @foreach (var ex in WorkoutState.SelectedExercises)
+    {
+        <div class="exercise-card">
+            <h3>Exercise @ex</h3>
+
+            <table>
+                <thead>
+                <tr>
+                    <th>SET</th>
+                    <th>KG</th>
+                    <th>REPS</th>
+                    <th>RIR</th>
+                    <th>RPE</th>
+                    <th>✔</th>
+                </tr>
+                </thead>
+                <tbody>
+                @for (int i = 0; i < ExerciseLogs[ex].Count; i++)
+                {
+                    var set = ExerciseLogs[ex][i];
+                    <tr>
+                        <td>@(i + 1)</td>
+                        <td><input type="number" @bind="set.Kg" /></td>
+                        <td><input type="number" @bind="set.Reps" /></td>
+                        <td><input type="number" @bind="set.Rir" /></td>
+                        <td><input type="number" @bind="set.Rpe" /></td>
+                        <td><input type="checkbox" @bind="set.Completed" /></td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+            <div class="addset-button">
+                <button @onclick="() => AddSet(ex)">Add Set</button>
+            </div>
+           
+        </div>
+        
+    }
+
+    <button @onclick="FinishWorkout" class="finish-button">Finish</button>
+}
+    

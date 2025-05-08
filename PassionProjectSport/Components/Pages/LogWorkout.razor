@@ -1,0 +1,25 @@
+﻿@page "/"
+@using PassionProjectSport.Classes
+@using Font = Microsoft.Maui.Font
+@using Layout = Microsoft.Maui.Controls.Layout
+@inject NavigationManager NavMenu
+<h1>Workouts</h1>
+
+<div class="workout-buttons">
+    <button @onclick="NewRoutine">New Routine</button>
+    <button @onclick="Search">Search</button>
+</div>
+
+<div class="workout-list">
+    @foreach (var routine in _routines)
+    {
+        <div class="workout-card">
+            <p>@routine.Routine_Name</p>
+            <p>@routine.exercise1</p>
+            <button @onclick="() => StartWorkout(routine)">Start Workout</button>
+        </div>
+    }
+</div>
+
+<button class="start-empty" @onclick="StartEmptyWorkout">Start Empty workout</button>
+

@@ -1,0 +1,31 @@
+﻿
+@page "/ExercisePage"
+@using PassionProjectSport.Classes
+@inject WorkoutState WorkoutState
+@inject NavigationManager NavMenu
+
+<h3>Exercise Page</h3>
+
+@foreach (var group in ExercisesByMuscle)
+{
+    <div class="muscle-group">
+        <button class="dropdown-button" @onclick="() => ToggleDropdown(group.Key)">
+            @group.Key
+        </button>
+
+        @if (ExpandedGroups.Contains(group.Key))
+        {
+            <div class="dropdown-content">
+                @foreach (var exercise in group.Value)
+                {
+                    <div>
+                        <input type="checkbox" @bind="exercise.IsSelected" />
+                        <label>@exercise.Name</label>
+                    </div>
+                }
+            </div>
+        }
+    </div>
+}
+
+<button @onclick="SubmitSelection">Start Workout</button>

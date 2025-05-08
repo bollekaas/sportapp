@@ -1,0 +1,42 @@
+﻿@page "/CreateExercise"
+@inject NavigationManager NavMenu
+
+<h3 class = "header-row">Create Exercise</h3>
+<h4 class="header-row">
+    
+    <button class="btn-primary" @onclick = "SaveExercise">Save</button>
+</h4>
+
+<div class="form-section">
+    <label for="name">Exercise Name</label>
+    <input id="name" @bind="ExerciseName" placeholder="Enter exercise name" />
+
+    <label>Equipment</label>
+    <select @bind="SelectedEquipment">
+        <option disabled selected value="">Select</option>
+        @foreach (var item in EquipmentList)
+        {
+            <option>@item</option>
+        }
+    </select>
+
+    <label>Primary Muscle Group</label>
+    <select @bind="SelectedPrimaryMuscle">
+        <option disabled selected value="">Select</option>
+        @foreach (var item in MuscleGroupList)
+        {
+            <option>@item</option>
+        }
+    </select>
+
+    <label>Other Muscle Group</label>
+    <select @bind="SelectedOtherMuscle">
+        <option disabled selected value="">Select</option>
+        @foreach (var item in MuscleGroupList)
+        {
+            <option>@item</option>
+        }
+    </select>
+</div>
+
+   
