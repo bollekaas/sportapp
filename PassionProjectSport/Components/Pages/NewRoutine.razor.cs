@@ -14,7 +14,8 @@ public partial class NewRoutine : ComponentBase
         try
         {
             string name = string.Empty;
-            AllExercises = await _database.getexercise(name);
+            string pmg = string.Empty;
+            AllExercises = await _database.getexercise(name, pmg);
 
         }
         catch (Exception ex)

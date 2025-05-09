@@ -17,7 +17,7 @@ public class Database
 
 	}
 
-	public async Task<List<Exercise>> getexercise(string name)
+	public async Task<List<Exercise>> getexercise(string name, string pmg)
 	{
 		var exerciseList = new List<Exercise>();
 
@@ -27,7 +27,7 @@ public class Database
 			{
 				await conn.OpenAsync();
 
-				string getExercisesQuery = "SELECT Name FROM exercise";
+				string getExercisesQuery = "SELECT Name, Primary_Muscle FROM exercise";
 				using (var command = new MySqlCommand(getExercisesQuery, conn))
 				{
 					using (var reader = await command.ExecuteReaderAsync())
@@ -37,6 +37,7 @@ public class Database
 							var exercise = new Exercise
 							{
 								Name = reader.GetString("Name"),
+								Primary_Muscle_Group = reader.GetString("Primary_Muscle")
 
 							};
 							exerciseList.Add(exercise);

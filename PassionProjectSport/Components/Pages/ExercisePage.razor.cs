@@ -19,8 +19,10 @@ public partial class ExercisePage : ComponentBase
         try
         {
             string name = string.Empty;
-            AllExercises = await _database.getexercise(name);
+            string pmg = string.Empty;
+            AllExercises = await _database.getexercise(name, pmg);
             GroupExercisesByMuscle();
+            
 
         }
         catch (Exception ex)
@@ -35,6 +37,7 @@ public partial class ExercisePage : ComponentBase
     private void GroupExercisesByMuscle()
     {
         ExercisesByMuscle = AllExercises
+            .Where(ex => !string.IsNullOrWhiteSpace(ex.Primary_Muscle_Group))
             .GroupBy(ex => ex.Primary_Muscle_Group)
             .ToDictionary(g => g.Key, g => g.ToList());
     }

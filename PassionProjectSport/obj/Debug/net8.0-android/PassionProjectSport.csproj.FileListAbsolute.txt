@@ -1113,3 +1113,4 @@ C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\n
 C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-android\PassionProjectSport.sourcelink.json

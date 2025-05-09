@@ -347,3 +347,4 @@ C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\n
 C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-ios\iossimulator-x64\PassionProjectSport.pdb
 C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-ios\iossimulator-x64\PassionProjectSport.genruntimeconfig.cache
 C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-ios\iossimulator-x64\ref\PassionProjectSport.dll
+C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-ios\iossimulator-x64\PassionProjectSport.sourcelink.json

@@ -212,3 +212,4 @@ C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\n
 C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\PassionProjectSport.sourcelink.json

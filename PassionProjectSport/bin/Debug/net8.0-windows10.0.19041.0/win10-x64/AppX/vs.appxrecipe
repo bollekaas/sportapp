@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-05-08T11:11:25.203</Modified>
+      <Modified>2025-05-08T11:34:22.479</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\PassionProjectSport.dll">
       <PackagePath>PassionProjectSport.dll</PackagePath>
-      <Modified>2025-05-08T11:11:24.707</Modified>
+      <Modified>2025-05-08T11:34:21.966</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>PassionProjectSport.exe</PackagePath>
-      <Modified>2025-05-08T11:11:24.740</Modified>
+      <Modified>2025-05-08T11:34:21.999</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>

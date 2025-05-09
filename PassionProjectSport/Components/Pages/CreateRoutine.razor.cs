@@ -75,7 +75,7 @@ public partial class CreateRoutine : ComponentBase
 
     async Task FinishRoutine()
     {
-        _logroutine.name = workoutname;
+        _logroutine.name = RoutineName;
         _logroutine.history = DateTime.Now;
         await _database.LogWorkout(_logroutine.name, _logroutine.history);
         NavMenu.NavigateTo("/NewRoutine");
