@@ -1,0 +1,49 @@
+﻿@page "/register"
+@using PassionProjectSport.Components.FormFields
+@inject NavigationManager Navigation
+
+<div class="col-12 col-md-6 mx-auto">
+    <h1 class="col-12 text-center mt-5 mb-3">Register</h1>
+    <EditForm Model="@_registerFields" OnSubmit="HandleRegister">
+        <DataAnnotationsValidator/>
+
+        
+        <div class="mb-3 form-floating">
+            <input type="email" class="form-control" id="EmailInput" @bind="_registerFields.Email" placeholder="Email address">
+            <label for="EmailInput" class="form-label" tabindex="1">Email address</label>
+            <ValidationMessage For="@(() => _registerFields.Email)" />
+        </div>
+
+        <div class="mb-3 form-floating">
+            <input type="text" class="form-control" id="FirstnameInput" @bind="_registerFields.Firstname" placeholder="Firstname">
+            <label for="FirstnameInput" class="form-label" tabindex="1">Firstname</label>
+            <ValidationMessage For="@(() => _registerFields.Firstname)" />
+        </div>
+
+        <div class="mb-3 form-floating">
+            <input type="text" class="form-control" id="MiddlenameInput" @bind="_registerFields.Middlename" placeholder="Middlename">
+            <label for="MiddlenameInput" class="form-label" tabindex="1">Middlename</label>
+            <ValidationMessage For="@(() => _registerFields.Middlename)" />
+        </div>
+
+        <div class="mb-3 form-floating">
+            <input type="text" class="form-control" id="LastnameInput" @bind="_registerFields.Lastname" placeholder="Lastname">
+            <label for="LastnameInput" class="form-label" tabindex="1">Lastname</label>
+            <ValidationMessage For="@(() => _registerFields.Lastname)" />
+        </div>
+
+        <div class="form-floating mb-3">
+            <input type="password" class="form-control" id="PasswordInput" @bind="_registerFields.Password" placeholder="Password">
+            <label for="PasswordInput" class="form-label" tabindex="2">Password</label>
+            <ValidationMessage For="@(() => _registerFields.Password)" />
+        </div>
+
+        <select id="accountTypeDropdown" class="form-floating mb-3" @onchange="HandleAccountTypeChange">
+            <option value="user">User</option>
+            <option value="company">Admin</option>
+        </select>
+
+        <button type="submit" class="btn btn-lg btn-success col-12 col-md-4" tabindex="3">Register</button>
+    </EditForm>
+    <p>Already have an account? Log in <a href="/Login">here</a></p>
+</div>

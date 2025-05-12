@@ -12,6 +12,7 @@ public partial class CreateRoutine : ComponentBase
     private List<string> Exercises = new();
     
     private readonly Database _database = new Database();
+    private readonly Notification _notification = new Notification();
     private Workout _logroutine = new();
     
     Dictionary<string, List<SetLog>> ExerciseLogs = new();
@@ -22,7 +23,7 @@ public partial class CreateRoutine : ComponentBase
     protected override void OnInitialized()
     {
         
-        var parameters = ParseQueryParameters(NavMenu.Uri);
+        var parameters = ParseQueryParameters(Navigation.Uri);
 
         if (parameters.TryGetValue("name", out var name))
         {
@@ -78,6 +79,6 @@ public partial class CreateRoutine : ComponentBase
         _logroutine.name = RoutineName;
         _logroutine.history = DateTime.Now;
         await _database.LogWorkout(_logroutine.name, _logroutine.history);
-        NavMenu.NavigateTo("/NewRoutine");
+        Navigation.NavigateTo("/NewRoutine");
     }
 }

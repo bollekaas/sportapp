@@ -10,6 +10,7 @@ public partial class StartWorkout : ComponentBase
     
     private Workout _logworkout = new();
     private readonly Database _database = new Database();
+    private readonly Notification _notification = new Notification();
 
     private string workoutname;
     
@@ -36,7 +37,7 @@ public partial class StartWorkout : ComponentBase
         _logworkout.name = workoutname;
         _logworkout.history = DateTime.Now;
         await _database.LogWorkout(_logworkout.name, _logworkout.history);
-        NavMenu.NavigateTo("/NewRoutine");
+        Navigation.NavigateTo("/NewRoutine");
     }
 }
 
