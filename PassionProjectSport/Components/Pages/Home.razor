@@ -1,0 +1,24 @@
+﻿@page "/"
+@using PassionProjectSport.Classes
+@using PassionProjectSport.Session
+@inject Appsession AppSession
+@inject NavigationManager Navigation
+
+
+@if (AppSession.IsLoggedIn())
+{
+    <header class="welcome-header">
+        <h1>Welkom @AppSession.GetUser().Firstname @AppSession.GetUser().Lastname!</h1>
+        <DashboardUser/>
+    </header>
+    
+    
+
+
+}
+else
+{
+    <div class="loading-container">
+        <p>Loading...</p>
+    </div>
+}

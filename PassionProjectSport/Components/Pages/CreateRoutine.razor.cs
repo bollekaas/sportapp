@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.WebUtilities;
 using PassionProjectSport.Classes;
+using PassionProjectSport.Session;
 
 namespace PassionProjectSport.Components.Pages;
 
@@ -12,6 +13,7 @@ public partial class CreateRoutine : ComponentBase
     private List<string> Exercises = new();
     
     private readonly Database _database = new Database();
+    private readonly Notification _notification = new Notification();
     private Workout _logroutine = new();
     
     Dictionary<string, List<SetLog>> ExerciseLogs = new();
@@ -22,7 +24,7 @@ public partial class CreateRoutine : ComponentBase
     protected override void OnInitialized()
     {
         
-        var parameters = ParseQueryParameters(NavMenu.Uri);
+        var parameters = ParseQueryParameters(Navigation.Uri);
 
         if (parameters.TryGetValue("name", out var name))
         {
@@ -75,9 +77,15 @@ public partial class CreateRoutine : ComponentBase
 
     async Task FinishRoutine()
     {
+        int userId = AppSession.GetUser().Id;
         _logroutine.name = RoutineName;
         _logroutine.history = DateTime.Now;
-        await _database.LogWorkout(_logroutine.name, _logroutine.history);
-        NavMenu.NavigateTo("/NewRoutine");
+        
+         int workout_id =  await _database.LogWorkout(_logroutine.name, _logroutine.history, userId);
+        foreach (var exercise in Exercises)
+        {
+            await _database.LogExerciseWorkout(workout_id, exercise);
+        }
+        Navigation.NavigateTo("/NewRoutine");
     }
 }

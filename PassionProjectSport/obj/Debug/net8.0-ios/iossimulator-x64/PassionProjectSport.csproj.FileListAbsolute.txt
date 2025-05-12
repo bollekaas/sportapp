@@ -2,6 +2,10 @@ C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\bin\Debug\n
 C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\bin\Debug\net8.0-ios\iossimulator-x64\PassionProjectSport.runtimeconfig.json
 C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\bin\Debug\net8.0-ios\iossimulator-x64\PassionProjectSport.dll
 C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\bin\Debug\net8.0-ios\iossimulator-x64\PassionProjectSport.pdb
+C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\bin\Debug\net8.0-ios\iossimulator-x64\BCrypt.Net-Next.dll
+C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\bin\Debug\net8.0-ios\iossimulator-x64\BouncyCastle.Crypto.dll
+C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\bin\Debug\net8.0-ios\iossimulator-x64\CommunityToolkit.Maui.dll
+C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\bin\Debug\net8.0-ios\iossimulator-x64\CommunityToolkit.Maui.Core.dll
 C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\bin\Debug\net8.0-ios\iossimulator-x64\Microsoft.AspNetCore.Authorization.dll
 C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\bin\Debug\net8.0-ios\iossimulator-x64\Microsoft.AspNetCore.Components.dll
 C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\bin\Debug\net8.0-ios\iossimulator-x64\Microsoft.AspNetCore.Components.Forms.dll
@@ -340,6 +344,7 @@ C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\n
 C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-ios\iossimulator-x64\PassionProjectSport.AssemblyInfo.cs
 C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-ios\iossimulator-x64\PassionProjectSport.csproj.CoreCompileInputs.cache
 C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-ios\iossimulator-x64\PassionProjectSport.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-ios\iossimulator-x64\PassionProjectSport.sourcelink.json
 C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-ios\iossimulator-x64\XamlC.stamp
 C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-ios\iossimulator-x64\PassionP.5CE1A941.Up2Date
 C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-ios\iossimulator-x64\PassionProjectSport.dll
@@ -347,4 +352,3 @@ C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\n
 C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-ios\iossimulator-x64\PassionProjectSport.pdb
 C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-ios\iossimulator-x64\PassionProjectSport.genruntimeconfig.cache
 C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-ios\iossimulator-x64\ref\PassionProjectSport.dll
-C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-ios\iossimulator-x64\PassionProjectSport.sourcelink.json

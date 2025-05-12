@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-05-08T11:34:22.479</Modified>
+      <Modified>2025-05-22T08:01:58.566</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-04-25T08:56:10.241</Modified>
+      <Modified>2025-05-09T08:26:49.820</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\PassionProjectSport.runtimeconfig.json">
       <PackagePath>PassionProjectSport.runtimeconfig.json</PackagePath>
-      <Modified>2025-04-25T08:56:09.895</Modified>
+      <Modified>2025-05-09T08:26:49.546</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\PassionProjectSport.dll">
       <PackagePath>PassionProjectSport.dll</PackagePath>
-      <Modified>2025-05-08T11:34:21.966</Modified>
+      <Modified>2025-05-22T08:01:58.086</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>PassionProjectSport.exe</PackagePath>
-      <Modified>2025-05-08T11:34:21.999</Modified>
+      <Modified>2025-05-22T08:01:58.119</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -55,7 +55,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\wwwroot\css\app.css">
       <PackagePath>wwwroot\css\app.css</PackagePath>
-      <Modified>2025-05-08T09:04:33.957</Modified>
+      <Modified>2025-05-22T08:00:49.367</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\wwwroot\css\bootstrap\bootstrap.min.css">
       <PackagePath>wwwroot\css\bootstrap\bootstrap.min.css</PackagePath>
@@ -75,23 +75,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2025-04-25T08:56:03.308</Modified>
+      <Modified>2025-05-09T08:26:42.933</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2025-04-25T08:56:03.327</Modified>
+      <Modified>2025-05-09T08:26:42.953</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2025-04-25T08:56:03.363</Modified>
+      <Modified>2025-05-09T08:26:42.980</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2025-04-25T08:56:03.400</Modified>
+      <Modified>2025-05-09T08:26:43.018</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2025-04-25T08:56:03.550</Modified>
+      <Modified>2025-05-09T08:26:43.201</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
@@ -99,211 +99,211 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2025-04-25T08:56:07.246</Modified>
+      <Modified>2025-05-09T08:26:46.801</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2025-04-25T08:56:07.233</Modified>
+      <Modified>2025-05-09T08:26:46.788</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2025-04-25T08:56:07.233</Modified>
+      <Modified>2025-05-09T08:26:46.788</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2025-04-25T08:56:07.232</Modified>
+      <Modified>2025-05-09T08:26:46.787</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2025-04-25T08:56:07.232</Modified>
+      <Modified>2025-05-09T08:26:46.787</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2025-04-25T08:56:07.232</Modified>
+      <Modified>2025-05-09T08:26:46.787</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2025-04-25T08:56:07.241</Modified>
+      <Modified>2025-05-09T08:26:46.796</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2025-04-25T08:56:07.240</Modified>
+      <Modified>2025-05-09T08:26:46.795</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2025-04-25T08:56:07.238</Modified>
+      <Modified>2025-05-09T08:26:46.794</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2025-04-25T08:56:07.240</Modified>
+      <Modified>2025-05-09T08:26:46.795</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2025-04-25T08:56:07.240</Modified>
+      <Modified>2025-05-09T08:26:46.794</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2025-04-25T08:56:07.242</Modified>
+      <Modified>2025-05-09T08:26:46.798</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2025-04-25T08:56:07.242</Modified>
+      <Modified>2025-05-09T08:26:46.797</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2025-04-25T08:56:07.241</Modified>
+      <Modified>2025-05-09T08:26:46.796</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2025-04-25T08:56:07.242</Modified>
+      <Modified>2025-05-09T08:26:46.797</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2025-04-25T08:56:07.241</Modified>
+      <Modified>2025-05-09T08:26:46.796</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2025-04-25T08:56:07.245</Modified>
+      <Modified>2025-05-09T08:26:46.801</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2025-04-25T08:56:07.245</Modified>
+      <Modified>2025-05-09T08:26:46.800</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2025-04-25T08:56:07.245</Modified>
+      <Modified>2025-05-09T08:26:46.800</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2025-04-25T08:56:07.245</Modified>
+      <Modified>2025-05-09T08:26:46.800</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2025-04-25T08:56:07.244</Modified>
+      <Modified>2025-05-09T08:26:46.799</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2025-04-25T08:56:07.244</Modified>
+      <Modified>2025-05-09T08:26:46.799</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2025-04-25T08:56:07.244</Modified>
+      <Modified>2025-05-09T08:26:46.799</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2025-04-25T08:56:07.243</Modified>
+      <Modified>2025-05-09T08:26:46.798</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2025-04-25T08:56:07.243</Modified>
+      <Modified>2025-05-09T08:26:46.798</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2025-04-25T08:56:07.243</Modified>
+      <Modified>2025-05-09T08:26:46.798</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2025-04-25T08:56:07.236</Modified>
+      <Modified>2025-05-09T08:26:46.791</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2025-04-25T08:56:07.235</Modified>
+      <Modified>2025-05-09T08:26:46.790</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2025-04-25T08:56:07.235</Modified>
+      <Modified>2025-05-09T08:26:46.790</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2025-04-25T08:56:07.235</Modified>
+      <Modified>2025-05-09T08:26:46.790</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2025-04-25T08:56:07.235</Modified>
+      <Modified>2025-05-09T08:26:46.789</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2025-04-25T08:56:07.237</Modified>
+      <Modified>2025-05-09T08:26:46.792</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2025-04-25T08:56:07.237</Modified>
+      <Modified>2025-05-09T08:26:46.792</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2025-04-25T08:56:07.236</Modified>
+      <Modified>2025-05-09T08:26:46.792</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2025-04-25T08:56:07.236</Modified>
+      <Modified>2025-05-09T08:26:46.792</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2025-04-25T08:56:07.236</Modified>
+      <Modified>2025-05-09T08:26:46.791</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2025-04-25T08:56:07.238</Modified>
+      <Modified>2025-05-09T08:26:46.794</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2025-04-25T08:56:07.238</Modified>
+      <Modified>2025-05-09T08:26:46.794</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2025-04-25T08:56:07.238</Modified>
+      <Modified>2025-05-09T08:26:46.793</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2025-04-25T08:56:07.238</Modified>
+      <Modified>2025-05-09T08:26:46.793</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2025-04-25T08:56:07.237</Modified>
+      <Modified>2025-05-09T08:26:46.793</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2025-04-25T08:56:07.234</Modified>
+      <Modified>2025-05-09T08:26:46.789</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2025-04-25T08:56:07.234</Modified>
+      <Modified>2025-05-09T08:26:46.789</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2025-04-25T08:56:07.234</Modified>
+      <Modified>2025-05-09T08:26:46.789</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2025-04-25T08:56:07.234</Modified>
+      <Modified>2025-05-09T08:26:46.788</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2025-04-25T08:56:07.233</Modified>
+      <Modified>2025-05-09T08:26:46.788</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2025-04-25T08:56:07.231</Modified>
+      <Modified>2025-05-09T08:26:46.786</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2025-04-25T08:56:07.231</Modified>
+      <Modified>2025-05-09T08:26:46.785</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2025-04-25T08:56:07.231</Modified>
+      <Modified>2025-05-09T08:26:46.785</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2025-04-25T08:56:07.230</Modified>
+      <Modified>2025-05-09T08:26:46.785</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2025-04-25T08:56:07.230</Modified>
+      <Modified>2025-05-09T08:26:46.784</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\PassionProjectSport.deps.json">
       <PackagePath>PassionProjectSport.deps.json</PackagePath>
-      <Modified>2025-04-25T08:56:09.853</Modified>
+      <Modified>2025-05-09T08:26:49.491</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.54\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -312,6 +312,22 @@
     <AppxPackagedFile Include="C:\Users\maxke\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.54\lib\net8.0\WinRT.Runtime.dll">
       <PackagePath>WinRT.Runtime.dll</PackagePath>
       <Modified>2024-10-14T22:26:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxke\.nuget\packages\bcrypt.net-next\4.0.3\lib\net6.0\BCrypt.Net-Next.dll">
+      <PackagePath>BCrypt.Net-Next.dll</PackagePath>
+      <Modified>2022-03-03T16:10:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxke\.nuget\packages\bouncycastle.crypto.dll\1.8.1\lib\BouncyCastle.Crypto.dll">
+      <PackagePath>BouncyCastle.Crypto.dll</PackagePath>
+      <Modified>2016-01-25T07:17:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxke\.nuget\packages\communitytoolkit.maui\9.1.1\lib\net8.0-windows10.0.19041\CommunityToolkit.Maui.dll">
+      <PackagePath>CommunityToolkit.Maui.dll</PackagePath>
+      <Modified>2024-11-08T09:03:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxke\.nuget\packages\communitytoolkit.maui.core\9.1.1\lib\net8.0-windows10.0.19041\CommunityToolkit.Maui.Core.dll">
+      <PackagePath>CommunityToolkit.Maui.Core.dll</PackagePath>
+      <Modified>2024-11-08T09:03:54.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\.nuget\packages\microsoft.aspnetcore.authorization\8.0.10\lib\net8.0\Microsoft.AspNetCore.Authorization.dll">
       <PackagePath>Microsoft.AspNetCore.Authorization.dll</PackagePath>
@@ -525,6 +541,10 @@
       <PackagePath>System.IO.Pipelines.dll</PackagePath>
       <Modified>2023-10-31T14:59:26.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxke\.nuget\packages\system.speech\8.0.0\runtimes\win\lib\net8.0\System.Speech.dll">
+      <PackagePath>System.Speech.dll</PackagePath>
+      <Modified>2023-10-31T15:00:06.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\.nuget\packages\microsoft.maui.controls.core\8.0.83\lib\net8.0-windows10.0.19041\ar\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ar\Microsoft.Maui.Controls.resources.dll</PackagePath>
       <Modified>2024-10-29T22:30:38.000</Modified>
@@ -671,7 +691,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\staticwebassets.build.endpoints.json">
       <PackagePath>PassionProjectSport.staticwebassets.endpoints.json</PackagePath>
-      <Modified>2025-05-08T09:04:36.779</Modified>
+      <Modified>2025-05-22T08:00:51.587</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\.nuget\packages\microsoft.maui.controls.compatibility\8.0.83\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -687,11 +707,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\bundle\PassionProjectSport.styles.css">
       <PackagePath>wwwroot\PassionProjectSport.styles.css</PackagePath>
-      <Modified>2025-04-25T08:54:46.704</Modified>
+      <Modified>2025-05-09T08:21:16.089</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\projectbundle\PassionProjectSport.bundle.scp.css">
       <PackagePath>wwwroot\PassionProjectSport.i7s9cr4laf.bundle.scp.css</PackagePath>
-      <Modified>2025-04-25T08:54:46.709</Modified>
+      <Modified>2025-05-09T08:21:16.095</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maxke\RiderProjects\PassionProjectSport\PassionProjectSport\Components\Layout\MainLayout.razor.css">
       <PackagePath>Components\Layout\MainLayout.razor.css</PackagePath>

@@ -1,7 +1,9 @@
 ﻿@page "/StartWorkout"
 @using PassionProjectSport.Classes
+@using PassionProjectSport.Session
 @inject WorkoutState workoutstate
-@inject NavigationManager NavMenu
+@inject NavigationManager Navigation
+@inject Appsession AppSession
 
 <h3>Workout</h3>    
 <input id = "workoutname" @bind = "workoutname" placeholder="Enter workout name here" />
@@ -52,4 +54,5 @@ else
 
     <button @onclick="FinishWorkout" class="finish-button">Finish</button>
 }
+
     

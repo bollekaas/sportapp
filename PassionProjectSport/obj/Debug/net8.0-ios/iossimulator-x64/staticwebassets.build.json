@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ispVhnyeB1VQGgONKKFLtZqf7tffVsle5ndkSuI7z+8=",
+  "Hash": "xbAZNZ09uTypD07vZelAEjdLeAjgnAd4mHpNPAPi30s=",
   "Source": "PassionProjectSport",
   "BasePath": "/",
   "Mode": "Root",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "6hjo0f6vmt",
-      "Integrity": "ZsvwUGPs342cmPia7vI1HT+186I1abOFRXnywr8qTrQ=",
+      "Fingerprint": "5h027hn86i",
+      "Integrity": "F9bbAhOvmSyqZtN/0uu5W4/FM9cI4oYDzr/tF0v+oAk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\app.css"
@@ -166,7 +166,7 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/app.6hjo0f6vmt.css",
+      "Route": "css/app.5h027hn86i.css",
       "AssetFile": "C:\\Users\\maxke\\RiderProjects\\PassionProjectSport\\PassionProjectSport\\wwwroot\\css\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -176,7 +176,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7005"
+          "Value": "8041"
         },
         {
           "Name": "Content-Type",
@@ -184,11 +184,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ZsvwUGPs342cmPia7vI1HT+186I1abOFRXnywr8qTrQ=\""
+          "Value": "\"F9bbAhOvmSyqZtN/0uu5W4/FM9cI4oYDzr/tF0v+oAk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 08 May 2025 09:04:33 GMT"
+          "Value": "Thu, 22 May 2025 08:00:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -198,7 +198,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6hjo0f6vmt"
+          "Value": "5h027hn86i"
         },
         {
           "Name": "label",
@@ -206,7 +206,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ZsvwUGPs342cmPia7vI1HT+186I1abOFRXnywr8qTrQ="
+          "Value": "sha256-F9bbAhOvmSyqZtN/0uu5W4/FM9cI4oYDzr/tF0v+oAk="
         }
       ]
     },
@@ -221,7 +221,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7005"
+          "Value": "8041"
         },
         {
           "Name": "Content-Type",
@@ -229,11 +229,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ZsvwUGPs342cmPia7vI1HT+186I1abOFRXnywr8qTrQ=\""
+          "Value": "\"F9bbAhOvmSyqZtN/0uu5W4/FM9cI4oYDzr/tF0v+oAk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 08 May 2025 09:04:33 GMT"
+          "Value": "Thu, 22 May 2025 08:00:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -243,7 +243,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ZsvwUGPs342cmPia7vI1HT+186I1abOFRXnywr8qTrQ="
+          "Value": "sha256-F9bbAhOvmSyqZtN/0uu5W4/FM9cI4oYDzr/tF0v+oAk="
         }
       ]
     },
@@ -598,7 +598,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 25 Apr 2025 08:55:44 GMT"
+          "Value": "Fri, 09 May 2025 08:26:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -635,7 +635,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 25 Apr 2025 08:55:44 GMT"
+          "Value": "Fri, 09 May 2025 08:26:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -680,7 +680,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 25 Apr 2025 08:55:44 GMT"
+          "Value": "Fri, 09 May 2025 08:26:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -725,7 +725,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 25 Apr 2025 08:55:44 GMT"
+          "Value": "Fri, 09 May 2025 08:26:21 GMT"
         },
         {
           "Name": "Cache-Control",

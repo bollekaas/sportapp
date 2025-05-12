@@ -8,6 +8,7 @@ public partial class CreateExercise : ComponentBase
 {
     private readonly Database _database = new Database();
     private Exercise _newexercise = new Exercise();
+    private readonly Notification _notification = new Notification();
     
     private string ExerciseName;
     private string SelectedEquipment;
@@ -15,7 +16,7 @@ public partial class CreateExercise : ComponentBase
     private string SelectedOtherMuscle;
 
     private List<string> EquipmentList = new() { "Barbell", "Dumbbell", "Machine", "Bodyweight" };
-    private List<string> MuscleGroupList = new() { "Chest", "Back", "Legs", "Shoulders", "Arms", "Core", "Glutes" };
+    private List<string> MuscleGroupList = new() { "Chest", "Back", "Legs", "Shoulders", "Biceps", "Triceps", "Core", "Glutes" };
 
     async Task SaveExercise()
     {

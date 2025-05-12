@@ -1,0 +1,19 @@
+﻿@page "/DashboardUser"
+@using PassionProjectSport.Session
+@inject NavigationManager Navigation
+@inject Appsession AppSession
+
+<div class="dashboard-container">
+    <div class="card">
+        <h1>Welcome back!</h1>
+        <p class="subtitle">Here's your progress:</p>
+
+        <div class="workout-counter">
+            <span class="count">@_workoutexercise.Count</span>
+            <span class="label">Workouts logged</span>
+        </div>
+
+        <button class="log-button" @onclick="LogNewWorkout">Log New Workout</button>
+    </div>
+</div>
+

@@ -8,6 +8,7 @@ public partial class ExercisePage : ComponentBase
 {
 
     private readonly Database _database = new Database();
+    private readonly Notification _notification = new Notification();
 
     private List<Exercise> AllExercises = new();
     private Dictionary<string, List<Exercise>> ExercisesByMuscle = new();
@@ -27,7 +28,7 @@ public partial class ExercisePage : ComponentBase
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"Error in OnInitializedAsync: {ex.Message}");
+            _notification.Show($"Error in OnInitializedAsync: {ex.Message}");
 
         }
 
@@ -58,7 +59,7 @@ public partial class ExercisePage : ComponentBase
 
         if (WorkoutState.SelectedExercises.Count > 0)
         {
-            NavMenu.NavigateTo("/StartWorkout");
+            Navigation.NavigateTo("/StartWorkout");
         }
         else
         {
@@ -68,6 +69,6 @@ public partial class ExercisePage : ComponentBase
 
     async Task CreateExercise()
     {
-        NavMenu.NavigateTo("/CreateExercise");
+        Navigation.NavigateTo("/CreateExercise");
     }
 }

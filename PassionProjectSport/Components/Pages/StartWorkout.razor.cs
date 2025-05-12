@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Components;
 using PassionProjectSport.Classes;
 using PassionProjectSport.Components.Layout;
+using PassionProjectSport.Session;
 
 namespace PassionProjectSport.Components.Pages;
 
@@ -10,6 +11,7 @@ public partial class StartWorkout : ComponentBase
     
     private Workout _logworkout = new();
     private readonly Database _database = new Database();
+    private readonly Notification _notification = new Notification();
 
     private string workoutname;
     
@@ -33,10 +35,16 @@ public partial class StartWorkout : ComponentBase
 
     async Task FinishWorkout()
     {
+        int userId = AppSession.GetUser().Id;
         _logworkout.name = workoutname;
         _logworkout.history = DateTime.Now;
-        await _database.LogWorkout(_logworkout.name, _logworkout.history);
-        NavMenu.NavigateTo("/NewRoutine");
+        List<Exercise> _exercises = new();
+       int workout_id = await _database.LogWorkout(_logworkout.name, _logworkout.history, userId);
+        foreach (var exercise in WorkoutState.SelectedExercises)
+        {
+           await _database.LogExerciseWorkout(workout_id, exercise); 
+        }
+        Navigation.NavigateTo("/NewRoutine");
     }
 }
 
