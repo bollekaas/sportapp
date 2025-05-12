@@ -1,4 +1,5 @@
 ﻿using MySqlConnector;
+using PassionProjectSport.Components.FormFields;
 
 namespace PassionProjectSport.Classes;
 
@@ -6,15 +7,138 @@ public class Database
 {
 
 	private readonly string connstring;
+	private readonly PasswordHasher _passwordHasher;
 	public Database(string server = "localhost", string user = "root", string password = "max197328!", string database = "workout_database")
 	{
 		connstring = $"Server={server}; Database={database}; Uid={user}; Pwd={password};";
+		_passwordHasher = new PasswordHasher();
 	}
 
 	public MySqlConnection GetConnection()
 	{
 		return new MySqlConnection(connstring);
 
+	}
+	public User GetUserAndLogin(string email, string password)
+    {
+        MySqlConnection connection = this.GetConnection();
+        connection.Open();
+        string query = "SELECT * FROM user WHERE Email = @Email";
+    
+        User user = null;
+    
+        using (connection)
+        {
+            using (MySqlCommand command = new MySqlCommand(query, connection))
+            {
+                command.Parameters.AddWithValue("@Email", email.ToLower());
+
+                using (MySqlDataReader reader = command.ExecuteReader())
+                {
+                    if (reader.Read())
+                    {
+                        string userPassword = reader["Password"].ToString();
+                        bool isPasswordCorrect = _passwordHasher.Verify(password, userPassword);
+                        if (isPasswordCorrect)
+                        {
+                            int id = int.Parse(reader["Id"].ToString());
+                        
+                            string firstname = reader["Firstname"].ToString();
+                            string middlename = reader["Middlename"].ToString();
+                            string lastname = reader["Lastname"].ToString();
+                        
+                         
+                        
+                            User.AccountTypeEnum accountType = (User.AccountTypeEnum)Enum.Parse(typeof(User.AccountTypeEnum), reader["AccountType"].ToString(), true);
+                        
+                            string userEmail = reader["Email"].ToString();
+                            DateTime created = Convert.ToDateTime(reader["DateTime_Created"]);
+                            DateTime modified = Convert.ToDateTime(reader["DateTime_Modified"]);
+                        
+                            user = new User(id, created, modified, userEmail, firstname, middlename, lastname, accountType);
+                        }
+                    }
+                }
+            }
+        }
+        return user;
+    }
+	
+	public async Task<bool> CreateUser( DateTime created, DateTime modified,  string firstname, string middlename, string lastname, string email, string password, RegisterFields.UserType userType)
+{
+    try
+    {
+        using var connection = new MySqlConnection(connstring);
+        await connection.OpenAsync();
+        
+        string checkEmailQuery = "SELECT COUNT(1) FROM user WHERE Email = @Email";
+        using (var checkCommand = new MySqlCommand(checkEmailQuery, connection))
+        {
+            checkCommand.Parameters.AddWithValue("@Email", email.ToLower());
+            var result = await checkCommand.ExecuteScalarAsync();
+            if (Convert.ToInt32(result) > 0)
+            {
+                return false;
+            }
+        }
+        
+        
+        string query = "INSERT INTO user ( DateTime_Created, DateTime_Modified,  Email, Firstname, Middlename, Lastname, AccountType, Password) VALUES (@Id, @DateTime_Created, @DateTime_Modified, @Email, @Firstname, @Middlename, @Lastname, @AccountType, @Password)";
+        using var command = new MySqlCommand(query, connection);
+        command.Parameters.AddWithValue("@DateTime_Created", created);
+        command.Parameters.AddWithValue("@DateTime_Modified", modified);
+        command.Parameters.AddWithValue("@Email", email.ToLower());
+        command.Parameters.AddWithValue("@Firstname", firstname);
+        command.Parameters.AddWithValue("@Middlename", middlename);
+        command.Parameters.AddWithValue("@Lastname", lastname);
+        command.Parameters.AddWithValue("@AccountType", userType.ToString());
+        command.Parameters.AddWithValue("@Password", _passwordHasher.Hash(password));
+     
+
+        int rowsAffected = await command.ExecuteNonQueryAsync();
+        if (rowsAffected == 0)
+        {
+            throw new Exception("Failed to insert user.");
+        }
+
+        return true;
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"Error: {ex.Message}");
+        Console.WriteLine(ex.StackTrace);
+        return false;
+    }
+}
+	
+	public async Task<List<User>> FetchAllUsersAsync()
+	{
+		var users = new List<User>();
+		using var connection = this.GetConnection();
+		await connection.OpenAsync();
+		string query = @" SELECT * from user WHERE Id = 1";
+
+		using (var command = new MySqlCommand(query, connection))
+		{
+			using (var reader = await command.ExecuteReaderAsync())
+			{
+				while (await reader.ReadAsync())
+				{
+					int id = int.Parse(reader["Id"].ToString());
+					string firstname = reader["Firstname"].ToString();
+					string middlename = reader["Middlename"].ToString();
+					string lastname = reader["Lastname"].ToString();
+					User.AccountTypeEnum accountType = (User.AccountTypeEnum)Enum.Parse(typeof(User.AccountTypeEnum),
+						reader["AccountType"].ToString());
+					string userEmail = reader["Email"].ToString();
+					DateTime created = Convert.ToDateTime(reader["DateTime_Created"]);
+					DateTime modified = Convert.ToDateTime(reader["DateTime_Modified"]);
+                    
+					users.Add(new User(id, created,modified,userEmail, firstname,middlename, lastname,accountType));
+				}
+			}
+		}
+		return users;
 	}
 
 	public async Task<List<Exercise>> getexercise(string name, string pmg)

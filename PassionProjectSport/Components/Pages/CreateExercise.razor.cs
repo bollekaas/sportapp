@@ -8,6 +8,7 @@ public partial class CreateExercise : ComponentBase
 {
     private readonly Database _database = new Database();
     private Exercise _newexercise = new Exercise();
+    private readonly Notification _notification = new Notification();
     
     private string ExerciseName;
     private string SelectedEquipment;

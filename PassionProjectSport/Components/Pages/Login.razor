@@ -1,0 +1,30 @@
+﻿@page "/Login"
+@using PassionProjectSport.Session
+@inject Appsession AppSession
+@inject NavigationManager Navigation
+
+<div class="col-12 col-md-6 mx-auto">
+    <div class="text-center mb-4">
+        <img src="Img/neural3.png" alt="Logo" class="img-fluid" style="max-width: 200px;" />
+    </div>
+
+    <h1 class="col-12 text-center mt-5 mb-3">Login</h1>
+    <EditForm Model="@_loginFields" OnValidSubmit="HandleLogin">
+        <DataAnnotationsValidator/>
+
+        <div class="mb-3 form-floating">
+            <input type="email" class="form-control" id="EmailInput" @bind="_loginFields.Email" placeholder="Email address">
+            <label for="EmailInput" class="form-label" tabindex="1">Email address</label>
+            <ValidationMessage For="@(() => _loginFields.Email)" />
+        </div>
+
+        <div class="form-floating mb-3">
+            <input type="password" class="form-control" id="PasswordInput" @bind="_loginFields.Password" placeholder="Password">
+            <label for="PasswordInput" class="form-label" tabindex="2">Password</label>
+            <ValidationMessage For="@(() => _loginFields.Password)" />
+        </div>
+
+        <button type="submit" class=" btn-primary btn btn-lg col-12 col-md-4" tabindex="3">Login</button>
+    </EditForm>
+    <p>Don't have an account yet? Create one <a href="/Register">here</a></p>
+</div>

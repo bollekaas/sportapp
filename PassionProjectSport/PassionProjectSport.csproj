@@ -58,6 +58,9 @@
     </ItemGroup>
 
     <ItemGroup>
+        <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+        <PackageReference Include="BouncyCastle.Crypto.dll" Version="1.8.1" />
+        <PackageReference Include="CommunityToolkit.Maui" Version="9.1.1" />
         <PackageReference Include="Microsoft.AspNetCore.WebUtilities" Version="8.0.15" />
         <PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)"/>
         <PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)"/>

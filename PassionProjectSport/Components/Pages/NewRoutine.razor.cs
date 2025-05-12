@@ -6,6 +6,8 @@ namespace PassionProjectSport.Components.Pages;
 public partial class NewRoutine : ComponentBase
 {
     private readonly Database _database = new Database();
+    private readonly Notification _notification = new Notification();
+    
     private List<Exercise> AllExercises = new();
     private string routineName;
     
@@ -20,7 +22,7 @@ public partial class NewRoutine : ComponentBase
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"Error in OnInitializedAsync: {ex.Message}");
+            _notification.Show($"Error in OnInitializedAsync: {ex.Message}");
 
         }
 
@@ -49,7 +51,7 @@ public partial class NewRoutine : ComponentBase
             }
             
             
-            NavMenu.NavigateTo("/");
+            Navigation.NavigateTo("/");
         }
         else
         {
@@ -59,6 +61,6 @@ public partial class NewRoutine : ComponentBase
 
     async Task CreateExercise()
     {
-        NavMenu.NavigateTo("/CreateExercise");
+        Navigation.NavigateTo("/CreateExercise");
     }
 }
